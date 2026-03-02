@@ -74,3 +74,8 @@ Two React contexts wire the client together:
 ### Testing
 
 Vitest with jsdom and React Testing Library. Tests live alongside source in `__tests__/` directories.
+
+## Conventions
+
+- **Comments**: Use sparingly — only on genuinely complex logic.
+- **Database**: Reference `prisma/schema.prisma` to understand data models before working with database-related code.
